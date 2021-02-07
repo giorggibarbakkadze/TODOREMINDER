@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TODO REMINDER</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="to_confirm_password">Confirm Your Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log in</string>
+    <string name="google_acc_sign">Sign in with your google account</string>
+    <string name="sign_up_for_new_acc">If you do not have an account click here to sign up</string>
+    <string name="creators_of_app">Created by Giorgi Barbakadze and Tato Jikhvashvili</string>
+    <string name="todo">TODO</string>
+    <string name="title">Title</string>
+    <string name="save_info_for_reg">Saving Your Information</string>
+    <string name="date">date</string>
+    <string name="welcome">Welcome</string>
+    <string name="sing_in_informaition">Sign in to Continue</string>
+    <string name="register_info">Type Your Information</string>
+    <string name="adding_todo">Write Your Todo</string>
+    <string name="set_date">Click here to Set Date</string>
+    <string name="due">Due:</string>
+
+</resources>

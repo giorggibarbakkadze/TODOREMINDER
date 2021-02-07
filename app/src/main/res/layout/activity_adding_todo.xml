@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/black"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:padding="30dp"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:text="@string/adding_todo"
+            android:gravity="center_horizontal" />
+
+        <EditText
+            android:id="@+id/todoTitle"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:background="@drawable/text_border"
+            android:hint="@string/title"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/todo"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/textview_border"
+            android:hint="@string/todo"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <Button
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="@string/set_date"
+            android:textAlignment="center"
+            android:padding="25dp"
+            android:textSize="20sp"
+            style="?android:spinnerStyle"
+            android:gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
